@@ -32,7 +32,7 @@ fi
 
 cp lib/* ${JANUS_INSTALL_PATH}/ext
 cp conf/janusgraph-foundationdb.properties ${JANUS_CONF_PATH}
-cp conf/janusgraph-foundationdb-es-server.properties ${JANUS_GREMLIN_SERVER_CONF}
+cp conf/janusgraph-foundationdb-lucene-server.properties ${JANUS_GREMLIN_SERVER_CONF}
 
 # backup Gremlin server config
 mv ${JANUS_GREMLIN_SERVER_CONF}/gremlin-server.yaml ${JANUS_GREMLIN_SERVER_CONF}/gremlin-server.yaml.orig
