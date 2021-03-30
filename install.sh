@@ -38,5 +38,5 @@ cp conf/janusgraph-foundationdb-es-server.properties ${JANUS_GREMLIN_SERVER_CONF
 mv ${JANUS_GREMLIN_SERVER_CONF}/gremlin-server.yaml ${JANUS_GREMLIN_SERVER_CONF}/gremlin-server.yaml.orig
 cp conf/gremlin-server.yaml ${JANUS_GREMLIN_SERVER_CONF}/gremlin-server.yaml
 # backup janusgraph.sh
-mv ${JANUS_BIN_PATH}/janusgraph.sh ${JANUS_BIN_PATH}/janusgraph.sh.orig
+#mv ${JANUS_BIN_PATH}/janusgraph.sh ${JANUS_BIN_PATH}/janusgraph.sh.orig
 cp conf/janusgraph.sh ${JANUS_BIN_PATH}/janusgraph.sh
